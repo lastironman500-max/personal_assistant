@@ -11,7 +11,7 @@ The IDOR bounty example is the mental model: AI can autonomously scan websites, 
 4. $100 budget is sufficient to start
 
 ## Current Phase
-Phase 1
+Phase 2 — Deep Opportunity Evaluation (7 parallel tracks)
 
 ## Phases
 
@@ -23,11 +23,18 @@ Phase 1
 - [ ] Synthesize findings into candidate business models
 - **Status:** in_progress
 
-### Phase 2: Validation — PoL Probes (20% of effort)
-- [ ] Score each candidate on: full AI doability, demand proof, price point, competition
-- [ ] Run lightweight validation (search volume, marketplace demand, willingness to pay)
-- [ ] Select top 1-2 candidates
-- [ ] Document decision rationale
+### Phase 2: Deep Opportunity Evaluation — WCAG Accessibility Audit Business
+7 parallel research tracks to produce a CEO-ready execution report:
+- [ ] Track A: Market Sizing (TAM/SAM/SOM)
+- [ ] Track B: Competitive Landscape Deep Dive
+- [ ] Track C: Customer Acquisition Strategy (how to find & reach prospects)
+- [ ] Track D: Pricing & Unit Economics
+- [ ] Track E: Technical Feasibility (build a working prototype)
+- [ ] Track F: Go-to-Market Playbook (Day 1-5 execution plan)
+- [ ] Track G: Risk Analysis & Mitigation
+- **Status:** in_progress
+
+**Deliverable:** A single executive report with everything needed to say GO/NO-GO and start executing immediately.
 - **Status:** pending
 
 ### Phase 3: Execution Setup (10% of effort)
