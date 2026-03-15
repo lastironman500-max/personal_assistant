@@ -1,100 +1,59 @@
-# Task Plan: $100 to $1,000 in 5 Days — CEO Agent Orchestration
+# Task Plan: PMF Discovery — AI-Native Business ($100 → $1K in 5 days)
 
 ## Goal
-As the CEO agent, orchestrate a team of specialized agents to turn $100 into $1,000 in 5 days by launching an AI-powered service business, using minimal tokens and creating reusable skills.
+Systematically discover a business where AI does 100% of the value delivery — not AI-assisted human work, but fully autonomous AI services that people will pay for. Spend 70% of effort on research/validation, 30% on execution.
+
+## Core Principle
+The IDOR bounty example is the mental model: AI can autonomously scan websites, find vulnerabilities, write reports, and earn bounties — no human in the loop for delivery. Find businesses like this where:
+1. AI can do the entire job end-to-end
+2. Real people/businesses already pay for this
+3. Delivery can happen over the internet
+4. $100 budget is sufficient to start
 
 ## Current Phase
-Phase 1 COMPLETE — Ready for Phase 2
-
-## Budget
-- Starting fund: $100
-- Target revenue: $1,000 in 5 days
-- Token budget: Minimize by delegating to lightweight agents (haiku where possible)
-
-## Agent Org Chart
-
-```
-CEO (this plan)
-├── Strategist Agent — picks highest-ROI business model
-├── Service Builder Agent — creates deliverable templates & portfolio
-├── Outreach Agent — writes cold messages, bids, social posts
-├── Fulfillment Agent — produces client deliverables using AI
-├── Finance Agent — tracks spend, revenue, P&L
-└── Skill Creator Agent — extracts reusable skills from workflows
-```
+Phase 1
 
 ## Phases
 
-### Phase 1: Strategy Selection & Agent Design
-- [x] Analyze existing strategy doc for best $100→$1K path
-- [x] Select 1-2 primary revenue strategies
-- [x] Define agent roles, tools, and prompts
-- [x] Create agent definition files (6 skills created)
-- **Status:** complete
+### Phase 1: Research — What Can AI Fully Do Today? (70% of effort)
+- [ ] Research 1: AI capabilities audit — what can AI do autonomously end-to-end?
+- [ ] Research 2: Marketplace scan — where do people pay for things AI can do?
+- [ ] Research 3: Competitor analysis — who is already selling AI-automated services?
+- [ ] Research 4: Jobs-to-be-done — what painful tasks do people outsource that AI could replace?
+- [ ] Synthesize findings into candidate business models
+- **Status:** in_progress
 
-### Phase 2: Business Infrastructure (Day 1 morning)
-- [ ] Create service offering templates (landing page copy, pitch deck, etc.)
-- [ ] Create portfolio samples using AI
-- [ ] Draft pricing sheet
-- [ ] Set up outreach message templates
+### Phase 2: Validation — PoL Probes (20% of effort)
+- [ ] Score each candidate on: full AI doability, demand proof, price point, competition
+- [ ] Run lightweight validation (search volume, marketplace demand, willingness to pay)
+- [ ] Select top 1-2 candidates
+- [ ] Document decision rationale
 - **Status:** pending
 
-### Phase 3: Outreach Blitz (Day 1 afternoon - Day 2)
-- [ ] Generate cold outreach messages (LinkedIn, Upwork, Fiverr)
-- [ ] Create social media content showcasing AI work
-- [ ] Bid on freelance platform jobs
-- **Status:** pending
-
-### Phase 4: Fulfillment & Delivery (Day 2-5)
-- [ ] Fulfill client work using AI agents
-- [ ] Quality review all deliverables
-- [ ] Invoice and collect payment
-- **Status:** pending
-
-### Phase 5: Self-Improvement & Skill Extraction
-- [ ] Extract reusable skills from each workflow
-- [ ] Create new SKILL.md files for future use
-- [ ] Update agent definitions based on learnings
+### Phase 3: Execution Setup (10% of effort)
+- [ ] Build MVP for chosen business
+- [ ] Create skills/agents for autonomous delivery
+- [ ] Launch and get first customer
 - **Status:** pending
 
 ## Key Questions
-1. Which service has highest $/hour with AI fulfillment? → AI landing page builds ($500-2K)
-2. Which platform converts fastest for new sellers? → LinkedIn direct outreach + Upwork
-3. What's the minimum viable portfolio? → 2 landing pages + 3 copy samples
+1. What tasks can AI do 100% autonomously (no human review needed)?
+2. Where are people already paying for these tasks?
+3. What's the price point sweet spot ($50-500 per job)?
+4. Can we deliver and collect payment within 5 days?
 
 ## Decisions Made
 | Decision | Rationale |
 |----------|-----------|
-| Focus on AI service arbitrage | Highest ROI per strategy doc (Priority 9/10), $500-2K per client |
-| LinkedIn + Upwork first | Fastest client acquisition for new sellers |
-| Create agents as .md files in skills/ | Reusable across sessions, version controlled |
-| Use haiku for outreach generation | 3x cost savings, sufficient quality for templates |
-| Create skills from every repeatable workflow | Compounds value over time |
-
-## Budget Allocation
-| Item | Amount | Status |
-|------|--------|--------|
-| Claude Pro (already have) | $0 | done |
-| Fiverr promoted gigs | $20 | pending |
-| Carrd portfolio site | $0 (free) | pending |
-| Canva Pro trial | $0 (free) | pending |
-| Reserve for ads/tools | $80 | pending |
-
-## Revenue Targets
-| Day | Target | Cumulative | Strategy |
-|-----|--------|------------|----------|
-| Day 1 | $0 | $0 | Setup + outreach |
-| Day 2 | $0-200 | $0-200 | First gig landed |
-| Day 3 | $200-400 | $200-600 | Deliver + bid more |
-| Day 4 | $200-400 | $400-1,000 | Multiple clients |
-| Day 5 | $200-400 | $600-1,400 | Close + collect |
+| Rejected AI service arbitrage | Human still in the loop for delivery/QA — not fully AI-native |
+| 70/30 research/execution split | Previous attempt skipped PMF validation entirely |
 
 ## Errors Encountered
 | Error | Attempt | Resolution |
 |-------|---------|------------|
-|       | 1       |            |
+| Previous plan skipped PMF | 1 | Starting over with research-first approach |
 
 ## Notes
-- Every agent output should be a reusable skill when possible
-- Favor creating templates over one-off content
-- Track actual vs projected revenue in progress.md
+- Commit after each phase
+- Use subagents for parallel research tracks
+- Document ALL findings in findings.md even if rejected
