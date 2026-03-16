@@ -40,7 +40,4 @@ Florida ranks second nationally for ADA website lawsuits, and Miami-based busine
 
 *This is a preview showing 3 of 105 issues found. A full report with remediation steps for every issue is available.*
 
-*Full Accessibility Scan Report — $299*
-*Includes: All 105 issues documented, plain-English fix instructions, priority remediation roadmap, compliance scorecard*
 
-*Reply to this email to get started.*

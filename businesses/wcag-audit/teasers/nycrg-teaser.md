@@ -27,5 +27,3 @@
 ### What This Means for NYCRG
 Your site already acknowledges that accessibility is "a work in progress" — which reflects well on your awareness of the issue. The good news is that with 14 issues identified on the homepage alone, across 7 locations, there is a clear and manageable path to meaningful improvement. Addressing these issues would bring your site into alignment with that stated commitment and help ensure every guest can book a table with ease.
 
-*Preview showing 3 of 14 issues. Full report available for $299.*
-*Reply to get started.*

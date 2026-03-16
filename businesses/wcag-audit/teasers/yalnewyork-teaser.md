@@ -40,7 +40,4 @@ YAL New York operates in one of the most litigation-active states in the country
 
 *This is a preview showing 3 of 132 issues found. A full report with remediation steps for every issue is available.*
 
-*Full Accessibility Scan Report — $299*
-*Includes: All 132 issues documented, plain-English fix instructions, priority remediation roadmap, compliance scorecard*
 
-*Reply to this email to get started.*

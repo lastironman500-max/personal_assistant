@@ -27,5 +27,3 @@
 ### What This Means for Saved by the Dress
 At roughly 400,000 cumulative orders, Saved by the Dress has built real scale — and with that comes both a larger addressable audience and greater exposure to ADA Title III web accessibility claims, which have increased sharply in the fashion and apparel sector. Ensuring that every shopper, regardless of ability, can browse products, understand pricing, and complete checkout is both the right thing to do and a sound business decision.
 
-*Preview showing 3 of 25 issues. Full report available for $299.*
-*Reply to get started.*

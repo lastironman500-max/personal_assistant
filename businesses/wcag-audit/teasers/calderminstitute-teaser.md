@@ -40,7 +40,4 @@ Dermatology practices face a dual compliance obligation: ADA Title III covers pu
 
 *This is a preview showing 3 of 59 issues found. A full report with remediation steps for every issue is available.*
 
-*Full Accessibility Scan Report — $299*
-*Includes: All 59 issues documented, plain-English fix instructions, priority remediation roadmap, compliance scorecard*
 
-*Reply to this email to get started.*

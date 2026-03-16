@@ -27,5 +27,3 @@
 ### What This Means for Local Color NYC
 Brooklyn shoppers with visual impairments, motor disabilities, or cognitive differences represent real potential customers — and right now your homepage creates significant barriers for them at every step, from navigation through product discovery. For a boutique built on community and local connection, an inaccessible website is a missed opportunity to serve the full breadth of your neighborhood. These are issues that a developer can address in a single focused session.
 
-*Preview showing 3 of 30 issues. Full report available for $299.*
-*Reply to get started.*

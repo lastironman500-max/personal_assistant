@@ -40,7 +40,4 @@ As a New York City-based fashion retailer with a Shopify storefront, Marcella NY
 
 *This is a preview showing 3 of 62 issues found. A full report with remediation steps for every issue is available.*
 
-*Full Accessibility Scan Report — $299*
-*Includes: All 62 issues documented, plain-English fix instructions, priority remediation roadmap, compliance scorecard*
 
-*Reply to this email to get started.*

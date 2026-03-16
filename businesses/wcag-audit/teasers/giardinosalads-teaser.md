@@ -27,5 +27,3 @@
 ### What This Means for Giardino Gourmet Salads
 With 11 locations across Miami and a busy online ordering platform, accessibility barriers on your homepage directly translate to lost orders from customers with disabilities — a population representing roughly 1 in 4 adults in the US. Beyond lost revenue, restaurants operating at this scale face increasing scrutiny under ADA Title III, with demand letters and litigation targeting businesses whose websites prevent equal access. The issues found are concrete and fixable.
 
-*Preview showing 3 of 57 issues. Full report available for $299.*
-*Reply to get started.*

@@ -27,5 +27,3 @@
 ### What This Means for Shalman Dentistry
 A dental practice's website serves as the front door for new patients — many of whom may be older adults or individuals with visual or motor impairments who have significant dental care needs. The contrast failures found here affect core content across the entire homepage, not just peripheral elements. Healthcare-adjacent businesses are also subject to increasing legal scrutiny around digital accessibility. These issues are addressable with targeted CSS and code changes.
 
-*Preview showing 3 of 22 issues. Full report available for $299.*
-*Reply to get started.*
