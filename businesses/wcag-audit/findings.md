@@ -1,26 +1,35 @@
-# Findings: WCAG Scan Business Build
+# Findings: WCAG Scan Business — Validation Phase
 
-## Technical Findings
-- axe-core catches ~57% of WCAG issues — sufficient for automated scan, not a full audit
-- @axe-core/playwright is the standard integration — npm package, well-documented
-- Puppeteer PDF reuses Chromium already loaded by Playwright — no extra dependency
-- Resend free tier: 100K emails/month, 3K/day — more than enough
-- Railway Hobby: $5/mo, handles Node.js + Chromium fine
-- Claude Haiku 4.5 Batch API: $0.06 per report — negligible cost
+## Validation Strategy
+- Sell first, build later
+- Manual scans from local CLI → teaser PDF → cold email → payment → full report
+- $0 budget needed for validation (all tools free)
+- Success = 1 paying customer
 
-## Market Findings
-- ADA lawsuits: 4,500-5,000 projected for 2025, +37% YoY
-- EAA (EU): enforcement started June 2025
-- 77% of lawsuits target ecommerce
-- Top states: NY (637), FL (487), CA (~400), IL (237)
-- Agencies charge $1,250-15,000 for same deliverable
+## Tools for Manual Scanning
+| Tool | Use | Cost |
+|------|-----|------|
+| axe DevTools (Chrome extension) | Quick single-page scan | Free |
+| Pa11y CLI (`npm i -g pa11y`) | CLI scan, JSON output | Free |
+| WAVE (wave.webaim.org) | Visual overlay of issues | Free |
+| Lighthouse (Chrome DevTools) | Accessibility score + details | Free |
+| Claude API | Generate report narrative from scan data | ~$0.06/report |
 
-## Competitive Findings
-- Only 1 direct competitor: The Audit Base ($199 scan, $999 remediation)
-- Free tools (axe, WAVE, Lighthouse) give raw data, not reports
-- Enterprise tools (Siteimprove $15K+/yr) won't serve SMBs
+## Target Selection Criteria
+- Industry: Ecommerce (77% of ADA lawsuits) or Healthcare (HHS deadline May 2026)
+- Geography: NY, FL, CA, IL (highest ADA lawsuit volume)
+- Company size: 10-500 employees (big enough to pay, small enough to lack compliance team)
+- Signal: no accessibility widget on site = likely non-compliant
 
-## Build Decisions
-- Phase 1-4 can build in parallel (scanner, writer, PDF, delivery are independent)
-- Phase 5 (prospector) depends on scanner being done
-- Phase 6-7 (marketing + outreach) can start in parallel with build
+## Outreach Approach
+- Scan their site first → find real issues → lead with proof
+- Teaser PDF shows 3-5 issues, withholds the rest
+- CTA: "Full report with fixes for $299"
+- Follow up Day 3 and Day 7 if no reply
+
+## What We Learned from Research
+- Agencies charge $1,250+ for this exact deliverable
+- Our cost: ~$0.06 per report (Claude API)
+- Only 1 direct competitor at this price point (The Audit Base)
+- ADA lawsuits +37% YoY — urgency is real
+- 94.8% of websites have WCAG failures (WebAIM Million 2025)

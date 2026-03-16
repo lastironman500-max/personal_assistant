@@ -1,122 +1,130 @@
-# Task Plan: WCAG Accessibility Scan Business — Build & Launch
+# Task Plan: WCAG Accessibility Scan Business — Validate & Sell
 
 ## Goal
-Build and launch a fully operational WCAG accessibility scan business that can accept a URL, produce a professional PDF report, and deliver it to a paying customer — all with zero human intervention. Target: $1,000 revenue in 5 days.
+Validate the WCAG scan business by manually running scans, generating sample reports, and cold-outreaching real business owners with proof of their issues. First paying customer before building any product. Run everything locally from CLI.
+
+## Core Principle
+**Sell first, build later.** No website, no landing page, no automated pipeline. Just:
+1. Scan a real website with axe-core
+2. Generate a teaser PDF (high-level stats + 3-5 example issues)
+3. Email the owner: "We found 47 accessibility issues on your site. Here's a preview."
+4. If they pay, run the full scan manually and deliver a complete report
+5. Only build product after we have paying customers
 
 ## Current Phase
 Phase 1
 
 ## Phases
 
-### Phase 1: MVP Scanner (Code)
-- [ ] Build Node.js CLI tool: URL → crawl → axe-core scan → JSON output
-- [ ] Multi-page support (sitemap + link following)
-- [ ] Screenshot capture of violations
-- [ ] Output structured JSON for Claude
+### Phase 1: Set Up Local Scan Workflow
+- [ ] Install axe-core CLI or browser extension
+- [ ] Install Pa11y CLI for quick scans
+- [ ] Test scan on a known website
+- [ ] Create teaser report template (1-2 pages: score + 3-5 example issues)
+- [ ] Create full report template (used only after payment)
 - **Status:** pending
-- **Owner:** Scanner subagent
-- **Deliverable:** `src/scanner/` — working CLI tool
+- **Deliverable:** Working local scan + teaser PDF template
 
-### Phase 2: AI Report Writer
-- [ ] Claude prompt that converts axe-core JSON → narrative report
-- [ ] Executive summary generation
-- [ ] Issue-by-issue plain-English explanations
-- [ ] Prioritized remediation roadmap
-- [ ] Compliance scorecard (WCAG 2.2 A/AA/AAA)
+### Phase 2: Find 50 Target Websites
+- [ ] Pick industry (ecommerce or healthcare — highest lawsuit risk)
+- [ ] Pick geography (NY, FL, CA — most ADA lawsuits)
+- [ ] Find 50 SMB websites in target segment
+- [ ] Scan all 50 for accessibility issues (batch)
+- [ ] Rank by issue count (worst = best prospects)
+- [ ] Find owner/decision-maker email for each
 - **Status:** pending
-- **Owner:** Writer subagent
-- **Deliverable:** `src/writer/` — prompt + formatting logic
+- **Deliverable:** Prospect spreadsheet with scan results + emails
 
-### Phase 3: PDF Generator
-- [ ] Convert markdown report → branded PDF
-- [ ] Cover page with client branding
-- [ ] Table of contents
-- [ ] Professional styling (headers, tables, severity colors)
-- [ ] Disclaimer page
+### Phase 3: Create Teaser Reports for Top 20
+- [ ] For top 20 worst-scoring sites, generate teaser PDFs
+- [ ] Each teaser: overall score, critical issue count, 3-5 specific examples with screenshots
+- [ ] Include: "This is a preview. Full report with remediation steps available for $299."
 - **Status:** pending
-- **Owner:** PDF subagent
-- **Deliverable:** `src/pdf/` — PDF generation pipeline
+- **Deliverable:** 20 teaser PDFs ready to send
 
-### Phase 4: Delivery Pipeline
-- [ ] Email delivery via Resend (free tier)
-- [ ] Stripe payment link integration
-- [ ] End-to-end CLI: `scan <url> --email <client@email.com>`
+### Phase 4: Cold Outreach Blitz
+- [ ] Send personalized emails to all 20 with teaser PDF attached
+- [ ] LinkedIn DMs to 10 highest-value prospects
+- [ ] Follow up Day 3, Day 7
+- [ ] Track responses in spreadsheet
 - **Status:** pending
-- **Owner:** Pipeline subagent
-- **Deliverable:** `src/delivery/` — email + payment wiring
+- **Deliverable:** 20 emails sent, response tracking started
 
-### Phase 5: Prospect Scanner (Bulk)
-- [ ] Batch scan multiple URLs for accessibility issues
-- [ ] Output: prospect list with issue counts + severity
-- [ ] Used for cold outreach — "we found 47 issues on your site"
+### Phase 5: Deliver Full Reports (on payment)
+- [ ] When someone pays, run full scan manually
+- [ ] Generate complete report with Claude (all issues + remediation)
+- [ ] Format as PDF, deliver via email
+- [ ] Ask for testimonial + referral
 - **Status:** pending
-- **Owner:** Prospector subagent
-- **Deliverable:** `src/prospector/` — bulk scanning tool
+- **Deliverable:** Paid report delivered, revenue earned
 
-### Phase 6: Landing Page + Fiverr
-- [ ] Carrd or HTML landing page with pricing
-- [ ] Fiverr gig listing
-- [ ] Upwork profile
+### Phase 6: Validate or Pivot
+- [ ] Did anyone pay? (GO → build product)
+- [ ] Did anyone reply but not pay? (adjust pricing/offer)
+- [ ] Zero replies? (pivot industry, channel, or business model)
 - **Status:** pending
-- **Owner:** Marketing subagent
-- **Deliverable:** `site/` — landing page files
+- **Deliverable:** GO/NO-GO on building product
 
-### Phase 7: Outreach Blitz (Day 2-5)
-- [ ] Scan 50 prospects per day
-- [ ] Send personalized cold emails with mini-audit
-- [ ] LinkedIn outreach
-- [ ] Follow up on Day 3, Day 7
-- **Status:** pending
-- **Owner:** Outreach subagent
+## What We're NOT Doing Yet
+- No website or landing page
+- No automated pipeline
+- No Fiverr/Upwork listings
+- No Stripe payment links
+- No hosting or infrastructure
+- No code beyond CLI scripts
 
-## Architecture Overview
+## Teaser Report Format (1-2 pages)
 ```
-scan-cli <url>
-  ├── 1. Crawl (Playwright + sitemap)
-  ├── 2. Scan (axe-core on each page)
-  ├── 3. Analyze (Claude API → narrative)
-  ├── 4. Generate PDF (Puppeteer)
-  └── 5. Deliver (Resend email)
+[Logo placeholder]
+
+ACCESSIBILITY SCAN PREVIEW
+[Company Name] — [URL]
+Date: [date]
+
+OVERALL SCORE: [X/100]
+Pages Scanned: [N]
+Total Issues Found: [N]
+  Critical: [N] | Serious: [N] | Moderate: [N] | Minor: [N]
+
+TOP ISSUES FOUND (preview):
+
+1. [Issue type] — [page URL]
+   Impact: [who is affected and how]
+   [Screenshot]
+
+2. [Issue type] — [page URL]
+   ...
+
+3. [Issue type] — [page URL]
+   ...
+
+---
+This is a preview of [N] issues found.
+Full report with remediation steps: $299
+Reply to this email or book a call: [calendly link]
 ```
 
-## Tech Stack
-| Component | Tool | Cost |
-|-----------|------|------|
-| Crawler | Playwright | Free |
-| Scanner | @axe-core/playwright | Free |
-| AI Writer | Claude API (Haiku for bulk, Sonnet for premium) | ~$0.06-0.50/report |
-| PDF | Puppeteer | Free |
-| Email | Resend | Free (100K/mo) |
-| Hosting | Railway Hobby | $5/mo |
-| Domain | Namecheap | $12/yr |
-| Payments | Stripe | 2.9% + $0.30 |
+## Budget: $0 for validation
+- axe-core: free
+- Pa11y: free
+- Claude API for report writing: ~$1-2 total for 20 teasers
+- Email: personal Gmail
+- Total: essentially $0
 
-## Budget Allocation ($100)
-| Item | Cost | Priority |
-|------|------|----------|
-| Domain | $12 | Day 1 |
-| Railway hosting | $5 | Day 1 |
-| Claude API credits | $20 | Day 1 |
-| Hunter.io (email finding) | $0 (free tier) | Day 1 |
-| Fiverr promoted gig | $20 | Day 2 |
-| Reserve | $43 | Buffer |
+## Success Criteria
+- 1 paying customer = validated, proceed to build
+- 3+ replies expressing interest = promising, refine offer
+- 0 replies after 50 outreach = pivot
 
 ## Key Decisions
 | Decision | Rationale |
 |----------|-----------|
-| Node.js + TypeScript | Best ecosystem for Playwright + axe-core |
-| CLI-first, no web UI for MVP | Ship faster, add web later |
-| Haiku for standard reports | $0.06 vs $0.50, quality sufficient |
-| Puppeteer PDF over WeasyPrint | Reuses Chromium from Playwright |
-| Resend over SendGrid | Permanent free tier (100K/mo) |
+| Manual-first, no product | Validate demand before investing build time |
+| Teaser PDF, not full report | Give enough to prove value, withhold enough to get paid |
+| Personal email, not tool | Authenticity > scale at this stage |
+| Target worst-scoring sites | Highest pain = highest conversion |
 
 ## Errors Encountered
 | Error | Attempt | Resolution |
 |-------|---------|------------|
 |       |         |            |
-
-## Notes
-- Commit after each phase
-- Use subagents for parallel build
-- Test with real websites before outreach
-- Never call it an "audit" — always "scan report"
