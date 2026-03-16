@@ -11,7 +11,7 @@ Frankie has a beautiful edit and a strong presence on Miami Beach — the curati
 
 Florida is the second-most active state for ADA website lawsuits, and boutique fashion e-commerce sites are a frequent target — especially Shopify stores in the $150–$500 price-point range. I've attached a preview report with your top 3 issues explained in plain language.
 
-A full remediation report is $299 — all 58 issues documented with step-by-step fix instructions your developer can implement right away.
+Full report with every issue documented and plain-English fix instructions — $99.
 
 Reply to this email or book a free 10-minute call and I'll walk you through what we found.
 

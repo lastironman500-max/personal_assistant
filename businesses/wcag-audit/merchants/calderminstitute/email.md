@@ -11,7 +11,7 @@ Calder Institute has an impressive multi-location practice serving patients acro
 
 Healthcare providers in California face both ADA Title III and Section 504 obligations, and medical websites have become a priority target for plaintiff attorneys — especially practices that serve patients who may themselves have vision or mobility impairments. I've attached a preview report with your top 3 issues in plain English.
 
-For $299, we'll deliver a full report with all 59 issues documented, plain-English fix instructions, and a prioritized remediation plan your web team can act on immediately.
+Full report with every issue documented and plain-English fix instructions — $99.
 
 Reply here or book a quick 10-minute call — happy to walk through what we found.
 

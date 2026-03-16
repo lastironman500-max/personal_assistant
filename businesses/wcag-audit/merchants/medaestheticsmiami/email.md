@@ -11,7 +11,7 @@ Med Aesthetics Miami offers exceptional treatments and has clearly built a stron
 
 Florida is the second-most active state for ADA website lawsuits, and medical aesthetics practices are an increasingly targeted category because appointment booking is considered a core service under Title III. Attached is a preview report showing your top 3 issues in plain English.
 
-A full remediation report is $299 — it documents all 105 issues with developer-ready fix instructions so you can resolve this quickly and protect the practice.
+Full report with every issue documented and plain-English fix instructions — $99.
 
 Reply here or book a free 10-minute call to go over what we found.
 

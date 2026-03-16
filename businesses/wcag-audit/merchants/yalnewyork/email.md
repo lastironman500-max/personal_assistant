@@ -11,7 +11,7 @@ YAL New York has a beautiful product line — and as a New York-based apparel br
 
 New York accounts for roughly 65% of all ADA website lawsuits filed nationally, and fashion e-commerce brands are among the most frequently named — this is a real and documented risk for NYC-based retailers. I've attached a preview report showing your top 3 issues with plain-English explanations.
 
-For $299, we'll deliver a full report documenting all 132 issues with step-by-step fix instructions and a prioritized remediation roadmap so your developer knows exactly what to tackle first.
+Full report with every issue documented and plain-English fix instructions — $99.
 
 Reply to this email or book a free 10-minute call and I'll walk you through what we found.
 
@@ -19,4 +19,4 @@ Best,
 [Your Name]
 [Your Website / LinkedIn]
 
-P.S. New York federal courts saw over 2,500 ADA website filings last year — the average demand letter settlement runs $15,000–$25,000 before legal fees. A $299 report is the most cost-effective first step.
+P.S. New York federal courts saw over 2,500 ADA website filings last year — the average demand letter settlement runs $15,000–$25,000 before legal fees. A $99 report is the most cost-effective first step.

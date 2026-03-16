@@ -11,7 +11,7 @@ Marcella NYC has a gorgeous store and a genuinely strong brand identity — the 
 
 As a New York City fashion retailer, you're operating in the highest-risk jurisdiction in the country for ADA website lawsuits — NYC courts see more e-commerce accessibility filings than anywhere else in the US. I've attached a preview report with your top 3 issues explained in plain English.
 
-The full report is $299 and includes all 62 issues documented with developer-ready fix instructions and a priority roadmap — the kind of document your developer needs to resolve this cleanly.
+Full report with every issue documented and plain-English fix instructions — $99.
 
 Reply to this email to get started, or book a free 10-minute call to go over the findings.
 

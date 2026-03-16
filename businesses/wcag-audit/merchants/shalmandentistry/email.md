@@ -6,7 +6,7 @@ Hi Dr. Shalman,
 
 I ran an accessibility scan on your homepage and found something worth flagging: every navigation link — Services, Implants, Invisalign, Contact — renders with invisible text (1:1 contrast ratio). Patients with low vision cannot read your menu at all. There are 22 issues in total across the homepage.
 
-I've prepared a short preview report (attached) covering 3 of the issues. The full audit — including plain-English descriptions and specific fixes for your developer — is $299.
+I've prepared a short preview report (attached) covering 3 of the issues. Full report with every issue documented and plain-English fix instructions — $99.
 
 Happy to walk through the findings at your convenience. Just reply or book a quick call.
 

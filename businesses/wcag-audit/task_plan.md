@@ -8,7 +8,7 @@ Validate the WCAG scan business by manually running scans, generating sample rep
 1. Scan a real website with axe-core
 2. Generate a teaser PDF (high-level stats + 3-5 example issues)
 3. Email the owner: "We found 47 accessibility issues on your site. Here's a preview."
-4. If they pay, run the full scan manually and deliver a complete report
+4. If they reply interested, offer full report for $99
 5. Only build product after we have paying customers
 
 ## Current Phase
@@ -38,7 +38,7 @@ Phase 1
 ### Phase 3: Create Teaser Reports for Top 20
 - [ ] For top 20 worst-scoring sites, generate teaser PDFs
 - [ ] Each teaser: overall score, critical issue count, 3-5 specific examples with screenshots
-- [ ] Include: "This is a preview. Full report with remediation steps available for $299."
+- [ ] Include: "This is a preview. Full report with remediation steps available for $99."
 - **Status:** pending
 - **Deliverable:** 20 teaser PDFs ready to send
 
@@ -100,7 +100,7 @@ TOP ISSUES FOUND (preview):
 
 ---
 This is a preview of [N] issues found.
-Full report with remediation steps: $299
+Full report with remediation steps: $99
 Reply to this email or book a call: [calendly link]
 ```
 
